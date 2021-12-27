@@ -1,0 +1,43 @@
+.home_container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../img/pexels-polina-zimmerman-3747490.jpg');
+    background-size: cover;
+    display: flex;
+}
+
+.homeBox{
+    cursor: pointer;
+    max-width: 750px;
+    max-height: 400px;
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+    margin: auto;
+    display: flex;
+    transition: 0.2s all;
+}
+
+.homeBox:active{
+    transform: scale(0.98);
+}
+
+.home_container a{
+    text-decoration: none;
+    color: black;
+    margin: auto;
+    max-width: 750px;
+    max-height: 400px;
+    width: 100%;
+    height: 100%;
+}
+
+.react-typewriter-text-wrap{
+    font-family: Freestyle Script;
+    margin: auto;
+    font-size: 60px;
+    letter-spacing: 6px; 
+    font-weight: bold;
+}
+
